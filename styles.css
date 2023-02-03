@@ -1,0 +1,87 @@
+*{
+  font-weight: 700;
+  font-family: system-ui;
+}
+
+.outerborder{
+    border: 5px solid black;
+    border-radius: 15px;
+    
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    background-color: grey;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.display{
+    background-color: rgb(170, 189, 170);
+    padding: 10px 10px; 
+}
+.displayformula{
+    font-size: 10px;
+    text-align: end;
+    height: 15px;
+}
+.displaytotal{
+    font-size: 20px;
+    text-align: end;
+    height: 25px;
+}
+.keys{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+}
+.otherbuttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 2px;
+}
+.otherbuttons button{
+    background-color: rgb(255, 93, 29);
+    color:whitesmoke;
+    font-size: 12px;
+}
+.numbersandoperations{
+    display:flex;
+    padding:0px;
+    justify-content: space-around;
+}
+.numbersandequal{
+    width: 140px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 190px;
+}
+.numbersandequal button{
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+}
+.operations{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 190px;
+}
+.operations button{
+    background-color: rgb(141, 141, 204);
+    color:whitesmoke;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+}
+.otherbuttons button{
+    height: 30px;
+    width: 45px;
+}
+button:hover {
+    background-color: #b6c9b7;
+  }
